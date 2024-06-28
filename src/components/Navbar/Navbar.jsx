@@ -1,10 +1,71 @@
-import { NavbarContainer } from "./NavbarStyles";
+import React, {useState} from "react";
+import {
+  NavbarContainer,
+  NavbarLinksContainer,
+  ImgContainer,
+  ImgStyled,
+  Menu,
+  MenuItems,
+  MenuItemLink,
+  IconLogoMobile,
+} from "./NavbarStyles";
+import { FaRegUserCircle } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 
-function Navbar() {
+const Navbar = () =>{
+
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    setClick(!click);
+  };
+
   return (
+    <>
     <NavbarContainer>
-      <div>Navbar</div>
+      <NavbarLinksContainer>
+        <ImgContainer>
+          <a href="#">
+            <ImgStyled src="https://imgur.com/lYcIJHA.png" />
+          </a>
+        </ImgContainer>
+
+        <IconLogoMobile onClick={() => handleClick()}>
+          {click ? <FaTimes/> : <FaBars/>};
+        </IconLogoMobile>
+
+        <Menu click = {click}>
+          <MenuItems onClick={() => handleClick()}>
+            <MenuItemLink href="#">Home</MenuItemLink>
+          </MenuItems>
+
+          <MenuItems onClick={() => handleClick()}>
+            <MenuItemLink href="#">Products</MenuItemLink>
+          </MenuItems>
+
+          <MenuItems onClick={() => handleClick()}>
+            <MenuItemLink href="#">Contact Us</MenuItemLink>
+          </MenuItems>
+
+          <MenuItems onClick={() => handleClick()}>
+            <MenuItemLink href="#">
+              <FaShoppingCart size={"1.5rem"} />
+            </MenuItemLink>
+          </MenuItems>
+
+          <MenuItems onClick={() => handleClick()}>
+            <MenuItemLink href="#">
+              <FaRegUserCircle size={"1.5rem"} />
+              Iniciar Sesion
+            </MenuItemLink>
+          </MenuItems>
+        </Menu>
+
+      </NavbarLinksContainer>
     </NavbarContainer>
+    </>
   );
 }
 
