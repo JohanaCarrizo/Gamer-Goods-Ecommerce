@@ -30,20 +30,10 @@ export const GlobalStyles=createGlobalStyle`
     body {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
         background-color: #131415;
-        font-family: "Montserrat",sans-serif;
         color: white;
-        overflow-x:hidden;
+        /* border: 1px solid red; */
     }
 
-    a {
-        text-decoration: none;
-        color: white;
-    }
-    a:visited {
-        color: white;
-    }
-    li {
-        list-style: none;
-    }
 `;
