@@ -33,7 +33,7 @@ const Navbar = () =>{
         </ImgContainer>
 
         <IconLogoMobile onClick={() => handleClick()}>
-          {click ? <FaTimes/> : <FaBars/>};
+          {click ? <FaTimes/> : <FaBars/>}
         </IconLogoMobile>
 
         <Menu click = {click}>

@@ -19,7 +19,7 @@ export const NavbarLinksContainer = styled.div`
   /* max-width: 1850px; */
   height: 100%;
   /* border: 1px solid red; */
-  color: black;
+  /* color: black; */
 `;
 
 export const ImgContainer = styled.div`
@@ -47,7 +47,7 @@ export const Menu = styled.ul`
     height: 98vh;
     position: absolute;
     top: 50px;
-    right: ${({click}) => click ? 0 : "-110%"};
+    right: ${({ click }) => (click ? 0 : "-110%")};
     flex-direction: column;
     transition: 0.5s all ease-in;
     background-color: #131415;
@@ -60,7 +60,7 @@ export const MenuItems = styled.li`
   justify-content: center;
   height: 100%;
   list-style: none;
-  color: black;
+  color: white;
   padding: 0.5rem 2rem;
 
   a:last-child {
@@ -86,8 +86,13 @@ export const MenuItemLink = styled.a`
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
-  font-family: "Oswald";
-  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+
+  @media screen and (max-width: 960px) {
+    color: white;
+  }
 `;
 
 export const IconLogoMobile = styled.div`
