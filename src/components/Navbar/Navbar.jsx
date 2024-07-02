@@ -38,15 +38,15 @@ const Navbar = () =>{
 
         <Menu click = {click}>
           <MenuItems onClick={() => handleClick()}>
-            <MenuItemLink href="#">Home</MenuItemLink>
+            <MenuItemLink href="#">Inicio</MenuItemLink>
           </MenuItems>
 
           <MenuItems onClick={() => handleClick()}>
-            <MenuItemLink href="#">Products</MenuItemLink>
+            <MenuItemLink href="#">Productos</MenuItemLink>
           </MenuItems>
 
           <MenuItems onClick={() => handleClick()}>
-            <MenuItemLink href="#">Contact Us</MenuItemLink>
+            <MenuItemLink href="#">Contacto</MenuItemLink>
           </MenuItems>
 
           <MenuItems onClick={() => handleClick()}>

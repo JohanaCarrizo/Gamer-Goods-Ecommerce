@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { ButtonCategory, ButtonContainer } from "./CategoriesStyles";
 
-function Category() {
+const Category = ({ key, name }) => {
+  console.log("Category rendered:", name);
   return (
-    <div>Category</div>
-  )
-}
+    <div>
+      <ButtonCategory type="button" key={key}>
+        {name}
+      </ButtonCategory>
+    </div>
+  );
+};
 
-export default Category
+export default Category;
