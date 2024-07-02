@@ -1,4 +1,5 @@
 import Categories from "./components/Category/Categories"
+import Category from "./components/Category/Category"
 import Hero from "./components/Hero/Hero"
 import Footer from "./components/Footer/Footer"
 import CardsProducts from "./components/Product/CardsProducts"
