@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     image:
-      "https://imgur.com/s8bVevV.png",
+      "https://imgur.com/ZIyvA6V.png",
     title: "Heimerdinger - Figura",
     category: "Coleccionables",
     description: "9 de cada 10 semi-locos científicos están de acuerdo: Heimerdinger aquí es el compañero de laboratorio perfecto. Medidas: 9 cm x 9 cm",
@@ -12,7 +12,7 @@ export const data = [
     id: 2,
     image:
       "https://imgur.com/SrrIoKA.png",
-    title: "Heimerdinger - Figura",
+    title: "Zagreus - Figura",
     category: "Coleccionables",
     description: "9 de cada 10 semi-locos científicos están de acuerdo: Heimerdinger aquí es el compañero de laboratorio perfecto. Medidas: 9 cm x 9 cm",
     price: 27.50,
@@ -21,7 +21,7 @@ export const data = [
     id: 3,
     image:
       "https://imgur.com/OLDsJqO.png",
-    title: "Heimerdinger - Figura",
+    title: "Pikachu - Funko",
     category: "Coleccionables",
     description: "9 de cada 10 semi-locos científicos están de acuerdo: Heimerdinger aquí es el compañero de laboratorio perfecto. Medidas: 9 cm x 9 cm",
     price: 27.50,
@@ -30,7 +30,7 @@ export const data = [
     id: 4,
     image:
       "https://imgur.com/mhZ8aZL.png",
-    title: "Heimerdinger - Figura",
+    title: "Chun li - Funko",
     category: "Coleccionables",
     description: "9 de cada 10 semi-locos científicos están de acuerdo: Heimerdinger aquí es el compañero de laboratorio perfecto. Medidas: 9 cm x 9 cm",
     price: 27.50,
@@ -75,7 +75,7 @@ export const data = [
     id: 9,
     image:
       "https://imgur.com/BtnhI59.png",
-    title: "Fallout Vault-Tec 111 - Mochila",
+    title: "Fallout Vault-Tec 111",
     category: "Oficina",
     description: "9 de cada 10 semi-locos científicos están de acuerdo: Heimerdinger aquí es el compañero de laboratorio perfecto. Medidas: 9 cm x 9 cm",
     price: 27.50,
@@ -83,7 +83,7 @@ export const data = [
   {
     id: 10,
     image:
-      "https://imgur.com/undefined.png",
+      "https://imgur.com/Dh8cYtb.png",
     title: "Bendy - Cuaderno",
     category: "Oficina",
     description: "9 de cada 10 semi-locos científicos están de acuerdo: Heimerdinger aquí es el compañero de laboratorio perfecto. Medidas: 9 cm x 9 cm",
@@ -101,8 +101,8 @@ export const data = [
   {
     id: 12,
     image:
-      "https://imgur.com/undefined.png",
-    title: "Need for speed - Cuaderno",
+      "https://imgur.com/R2TdZ6O.png",
+    title: "NFS - Cuaderno",
     category: "Oficina",
     description: "9 de cada 10 semi-locos científicos están de acuerdo: Heimerdinger aquí es el compañero de laboratorio perfecto. Medidas: 9 cm x 9 cm",
     price: 27.50,
@@ -110,7 +110,7 @@ export const data = [
   {
     id: 13,
     image:
-      "https://imgur.com/kZAZ4Vu.png",
+      "https://imgur.com/zW9BwOG.png",
     title: "Caja misteriosa - Taza",
     category: "Hogar",
     description: "9 de cada 10 semi-locos científicos están de acuerdo: Heimerdinger aquí es el compañero de laboratorio perfecto. Medidas: 9 cm x 9 cm",

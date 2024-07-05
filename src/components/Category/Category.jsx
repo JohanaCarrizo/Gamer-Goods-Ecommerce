@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonCategory, ButtonContainer } from "./CategoriesStyles";
+import { ButtonCategory} from "./CategoriesStyles";
 
 const Category = ({ key, name }) => {
   console.log("Category rendered:", name);
