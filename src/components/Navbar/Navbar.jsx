@@ -58,7 +58,6 @@ const Navbar = () =>{
           <MenuItems onClick={() => handleClick()}>
             <MenuItemLink href="#">
               <FaRegUserCircle size={"1.5rem"} />
-              Iniciar Sesion
             </MenuItemLink>
           </MenuItems>
         </Menu>

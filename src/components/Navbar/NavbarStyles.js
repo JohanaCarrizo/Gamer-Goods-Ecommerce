@@ -42,7 +42,7 @@ export const Menu = styled.ul`
   height: 100%;
   /* border: 1px solid red; */
 
-  @media screen and (max-width: 960px) {
+  /* @media screen and (max-width: 960px) {
     width: 100%;
     height: 98vh;
     position: absolute;
@@ -51,7 +51,7 @@ export const Menu = styled.ul`
     flex-direction: column;
     transition: 0.5s all ease-in;
     background-color: #131415;
-  }
+  } */
 `;
 
 export const MenuItems = styled.li`
@@ -79,6 +79,7 @@ export const MenuItems = styled.li`
     width: 100%;
     height: 70px;
     color: white;
+    padding: 2rem;
   }
 `;
 
@@ -91,17 +92,21 @@ export const MenuItemLink = styled.a`
   font-weight: 600;
 
   @media screen and (max-width: 960px) {
-    color: white;
+    font-size: 1em;
   }
+
+  /* @media screen and (max-width: 960px) {
+    color: white;
+  } */
 `;
 
 export const IconLogoMobile = styled.div`
   display: none;
 
-  @media screen and (max-width: 960px) {
+  /* @media screen and (max-width: 960px) {
     display: flex;
     color: black;
     font-size: 2rem;
     width: auto;
-  }
+  } */
 `;
